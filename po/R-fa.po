@@ -1,159 +1,153 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: jaspLearnBayes 0.95.5\n"
-"POT-Creation-Date: 2025-11-15 03:04\n"
-"PO-Revision-Date: 2026-06-23 10:01+0000\n"
-"Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
-"jasplearnbayes-r/id/>\n"
-"Language: id\n"
+"Project-Id-Version: jaspLearnBayes 0.96.4\n"
+"POT-Creation-Date: 2026-04-25 03:43\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.7.dev0\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 
 msgid "Summary Table"
-msgstr "Tabel Ringkasan"
+msgstr ""
 
 msgid "Tosses"
-msgstr "Lemparan"
+msgstr ""
 
 msgid "Crosses"
-msgstr "Silang"
+msgstr ""
 
 msgid "MLE for %s"
-msgstr "MLE untuk %s"
+msgstr ""
 
 msgid "Interval Mass"
-msgstr "Massa Interval"
+msgstr ""
 
 msgid "Median for %s"
-msgstr "Median untuk %s"
+msgstr ""
 
 msgid "Lower"
-msgstr "Batas Bawah"
+msgstr ""
 
 msgid "%s%% Credible Interval"
-msgstr "%s%% Interval Kredibel"
+msgstr ""
 
 msgid "Upper"
-msgstr "Batas Atas"
+msgstr ""
 
 msgid "Prior and Posterior for Proportion of Crosses"
-msgstr "Priori dan Posterior untuk Proporsi Silang"
+msgstr ""
 
 msgid "Posterior"
-msgstr "Posterior"
+msgstr ""
 
 msgid "Prior"
-msgstr "Priori"
+msgstr ""
 
 msgid "Proportion of Crosses"
-msgstr "Proporsi Silang"
+msgstr ""
 
 msgid "Density"
-msgstr "Densitas"
+msgstr ""
 
 msgid "%1$s%% CI: [%2$s, %3$s]"
-msgstr "%1$s%% CI: [%2$s, %3$s]"
+msgstr ""
 
 msgid "Implied Prior and Posterior for %s"
-msgstr "Priori dan Posterior Tersirat untuk %s"
+msgstr ""
 
 msgid "Implied Posterior"
-msgstr "Posterior Tersirat"
+msgstr ""
 
 msgid "Implied Prior"
-msgstr "Priori Tersirat"
+msgstr ""
 
 msgid "Needle Plot"
-msgstr "Diagram Jarum"
+msgstr ""
 
 msgid "Implied Prior and Posterior for  %s"
-msgstr "Priori dan Posterior Tersirat untuk  %s"
+msgstr ""
 
 msgid "This analysis demonstrates <b>binary classification</b> which is a common statistical procedure where subjects are classified into two groups based on a classification rule.\n\n                   Binary classification is a procedure where data about the subject is dichotomised to reach a binary decision (e.g., yes/no, true/false).\n\n                   Common binary classification applications are:\n                   <ul>\n                     <li><b>Medical testing and diagnosis</b> where the classification determines whether a patient has a certain disease or not.</li>\n                     <li><b>Spam detection</b> where the classification determines whether a message (e.g., an email) is spam or not.</li>\n                     <li><b>Quality control</b> where the classification determines whether an industry standard is met or not.</li>\n                   </ul>\n\n                   Because binary classification is often used in medical testing, the terminology surrounding binary classification problems is similar to medical terminology (e.g., prevalence, condition, marker).\n\n                   In practice, there is an important distinction between the <i>true</i> state of the subject and the <i>assigned label</i> given by the classification rule.\n                   In JASP, the true state is called <b>condition</b> (positive/negative) and the assigned label is called <b>test</b> (positive/negative).\n                   In many applications, the conditions or the tests may not be symmetric, therefore various types of errors are of interest in addition to an overall measure of accuracy.\n                   These types of errors distinguish, for example, whether a patient has a disease but the test came back negative (false negative), or whether a patient does not have a disease but the test came back positive (false positive).\n\n                   Properties of the test are usually described in terms of its <b>sensitivity</b> and <b>specificity</b>.\n                   Sensitivity is the probability of testing positive if the condition is positive.\n                   Specificity is the probability of testing negative if the condition is negative.\n                   A property of condition is <b>prevalence</b>, which is the proportion of subjects that have a positive condition in the population.\n                   Asymmetric characteristics of the test or prevalence can lead to situations that may appear to the untrained eye as paradoxical.\n                   For example, in certain situations it is more likely that a patient does not have a particular disease than that they do, even after testing positive for that disease.\n\n                   Formally, the probability that a subject has a positive condition after the test is positive (i.e., the positive predictive value) is obtained by applying <b>Bayes theorem</b>:\n\n                   %s\n\n                   <h5>References</h5>\n                   Pepe, M. S. (2003). <i>The statistical evaluation of medical tests for classification and prediction</i>. Oxford University Press.\n\n                   <a href=\"https://wikipedia.org/wiki/Binary_classification\">https://wikipedia.org/wiki/Binary_classification</a>\n\n                   <a href=\"https://wikipedia.org/wiki/Evaluation_of_binary_classifiers\">https://wikipedia.org/wiki/Evaluation_of_binary_classifiers</a>\n\n                   <a href=\"https://wikipedia.org/wiki/Bayes%%27_theorem\">https://wikipedia.org/wiki/Bayes%%27_theorem</a>"
 msgstr ""
 
 msgid "Welcome to binary classification with JASP!"
-msgstr "Selamat datang di klasifikasi biner dengan JASP!"
+msgstr ""
 
 msgid "JAGS requires strictly positive parameters for Beta priors. Set {α, β} > 0 for the prior distributions of Prevalence, Sensitivity, and Specificity."
 msgstr ""
-"JAGS memerlukan parameter positif ketat untuk priori Beta. Atur {α, β} > 0 "
-"untuk distribusi priori dari Pravalens, Sensitifitas, dan Kekhususan."
 
 msgid "Some of the specified colors are not valid colors."
-msgstr "Beberapa warna tertentu bukan warna valid."
+msgstr ""
 
 msgid "The 'Positive condition (binary)' variable must have two levels!"
-msgstr "Variabel 'Kondisi positif (biner)' harus memiliki dua tingkat!"
+msgstr ""
 
 msgid "Each condition needs at least one observation."
-msgstr "Setiap kondisi memerlukan setidaknya satu observasi."
+msgstr ""
 
 msgid "Mean of marker in positive condition (%1$s) needs to be larger than the mean of marker in negative condition (%2$s)."
 msgstr ""
-"Rerata penanda di kondisi positif (%1$s) perlu lebih besar dari rerata "
-"penandan di kondisi negatif (%2$s)."
 
 msgid "Estimating parameters per varying thresholds..."
-msgstr "Mengestimasi parameter per ambang batas bervariasi..."
+msgstr ""
 
 msgid "Tables"
-msgstr "Tabel"
+msgstr ""
 
 msgid "Statistics"
-msgstr "Statistik"
+msgstr ""
 
 msgid "Estimate"
-msgstr "Estimasi"
+msgstr ""
 
 msgid "Mean"
-msgstr "Rata-rata"
+msgstr ""
 
 msgid "Median"
-msgstr "Median"
+msgstr ""
 
 msgid "SD"
-msgstr "SD"
+msgstr ""
 
 msgid "Rhat"
-msgstr "Rhat"
+msgstr ""
 
 msgid "Diagnostics"
-msgstr "Diagnostik"
+msgstr ""
 
 msgid "Eff. Sample Size"
-msgstr "Ukuran Sampel Ef."
+msgstr ""
 
 msgid "Notation"
-msgstr "Notasi"
+msgstr ""
 
 msgid "Interpretation"
-msgstr "Interpretasi"
+msgstr ""
 
 msgid "Confusion Matrix"
-msgstr "Matriks Kebingungan"
+msgstr ""
 
 msgid "%s%% CI"
-msgstr "%s%% CI"
+msgstr ""
 
 msgid "Positive test"
-msgstr "Uji positif"
+msgstr ""
 
 msgid "Outcome"
-msgstr "Hasil"
+msgstr ""
 
 msgid "Lower %s"
-msgstr "Bawah %s"
+msgstr ""
 
 msgid "Upper %s"
-msgstr "Atas %s"
+msgstr ""
 
 msgid "Negative test"
-msgstr "Uji negatif"
+msgstr ""
 
 msgid "Positive/Total"
 msgstr ""
@@ -162,7 +156,7 @@ msgid "Negative/Total"
 msgstr ""
 
 msgid "Total"
-msgstr "Total"
+msgstr ""
 
 msgid "Positive condition"
 msgstr ""
@@ -183,19 +177,19 @@ msgid "Priors and Posteriors"
 msgstr ""
 
 msgid "Parameter"
-msgstr "Parameter"
+msgstr ""
 
 msgid "Sensitivity"
 msgstr ""
 
 msgid "Specificity"
-msgstr "Kekhususan"
+msgstr ""
 
 msgid "beta(%1$s,%2$s)"
 msgstr ""
 
 msgid "Plots"
-msgstr "Plot"
+msgstr ""
 
 msgid "Probability Positive"
 msgstr ""
@@ -288,7 +282,7 @@ msgid "Condition"
 msgstr ""
 
 msgid "Test"
-msgstr "Uji"
+msgstr ""
 
 msgid "Proportion of Population"
 msgstr ""
@@ -300,16 +294,16 @@ msgid "Marker"
 msgstr ""
 
 msgid "Count"
-msgstr "Jumlah"
+msgstr ""
 
 msgid "Estimates"
-msgstr "Estimasi"
+msgstr ""
 
 msgid "Positive predictive value"
 msgstr ""
 
 msgid "Negative predictive value"
-msgstr "Nilai prediktif negatif"
+msgstr ""
 
 msgid "False discovery rate"
 msgstr ""
@@ -318,13 +312,13 @@ msgid "False omission rate"
 msgstr ""
 
 msgid "False positive rate"
-msgstr "Tingkat positif palsu"
+msgstr ""
 
 msgid "False negative rate"
-msgstr "Tingkat negatif palsu"
+msgstr ""
 
 msgid "Accuracy"
-msgstr "Akurasi"
+msgstr ""
 
 msgid "Pretest odds"
 msgstr ""
@@ -339,7 +333,7 @@ msgid "F-measure"
 msgstr ""
 
 msgid "Proportion of a population affected by the condition."
-msgstr "Proporsi dari populasi terdampak oleh kondisi."
+msgstr ""
 
 msgid "(True positive rate) Proportion of those who are affected by the condition and are correctly tested positive."
 msgstr ""
@@ -435,16 +429,16 @@ msgid "Data Summary"
 msgstr ""
 
 msgid "Counts"
-msgstr "Cacah"
+msgstr ""
 
 msgid "Proportion"
-msgstr "Proporsi"
+msgstr ""
 
 msgid "Successes"
-msgstr "Keberhasilan"
+msgstr ""
 
 msgid "Failures"
-msgstr "Kegagalan"
+msgstr ""
 
 msgid "spike at %s"
 msgstr ""
@@ -468,7 +462,7 @@ msgid "Estimation Summary"
 msgstr ""
 
 msgid "Model"
-msgstr "Model"
+msgstr ""
 
 msgid "Prior (%s)"
 msgstr ""
@@ -486,7 +480,7 @@ msgid "Please specify successes and failures."
 msgstr ""
 
 msgid "Warning:"
-msgstr "Peringatan:"
+msgstr ""
 
 msgid "These results are based on %1$i %2$s and %3$i %4$s."
 msgstr ""
@@ -498,7 +492,7 @@ msgid "Plot could not be produced due to lacking numerical precision for %1$s."
 msgstr ""
 
 msgid "Population proportion"
-msgstr "Proporsi populasi"
+msgstr ""
 
 msgid "Prior = Posterior"
 msgstr ""
@@ -534,7 +528,7 @@ msgid "Predicted number of successes"
 msgstr ""
 
 msgid "Probability"
-msgstr "Probabilitas"
+msgstr ""
 
 msgid "The upper CI limit is higher than the number of future observations. Please, change the value of the upper CI limit in the settings panel."
 msgstr ""
@@ -552,13 +546,13 @@ msgid "Testing Summary"
 msgstr ""
 
 msgid "BF%s"
-msgstr "BF%s"
+msgstr ""
 
 msgid "log(BF%s)"
 msgstr ""
 
 msgid "Hypothesis"
-msgstr "Hipotesis"
+msgstr ""
 
 msgid "P(H)"
 msgstr ""
@@ -600,7 +594,7 @@ msgid "Joint probability"
 msgstr ""
 
 msgid "Posterior probability"
-msgstr "Probabilitas posterior"
+msgstr ""
 
 msgid "Plotting not possible: One of the Bayes factor is equal to infinity."
 msgstr ""
@@ -841,115 +835,99 @@ msgstr ""
 
 msgid "The 'Bayes factor' option can compare the predictive accuracies of the hypotheses to the rest of the hypotheses ('vs. All'), the best hypothesis ('vs. best'), or a specific hypothesis selected in the 'vs.' dropdown  (the selected hypothesis correponds to the '0' in BF%1$s%2$s). The nominator and denominator of the Bayes factors can be reversed by choosing the 'BF%2$s%1$s' option (quantifying the evidence in favor of the second hypothesis), or transformed to a log scale by choosing the 'log(BF%1$s%2$s)' option."
 msgstr ""
-"Opsi 'Faktor Bayes' dapat membandingkan akurasi prediktif dari hipotesis "
-"dengan hipotesis lain ('vs. Semua'), hipotesis terbaik ('vs. terbaik'), atau "
-"hipotesis spesifik dipilih di tarik turun 'vs.'  (hipotesis terpilih sesuai "
-"dengan '0' di BF%1$s%2$s). Nominator dan denominator dari faktor Bayes dapat "
-"dibalikkan dengan memilih opsi 'BF%2$s%1$s' (mengukur bukti mendukung "
-"hipotesis kedua), atau ditransform ke skala log dengan memilih opsi 'log"
-"(BF%1$s%2$s)."
 
 msgid "The 'Updating table' option generates a numerical summary of the displayed figure."
 msgstr ""
-"Opsi 'Memperbarui tabel' menghasilkan ringkasan numerik figur ditampilkan."
 
 msgid "<ul><li>'central' - a central interval (or quantile) that covers the central 'mass'%% area of the distribution</li><li>'HPD' - a highest posterior density interval that covers 'mass'%% area with the shortest range</li><li>'custom' - an interval defined by a 'lower' and 'upper' bound. It returns the posterior mass of the parameter falling inside the custom interval.</li>%s</ul>"
 msgstr ""
-"<ul><li>'pusat' - interval pusat (atau kuantil) yang mencakup area 'massa'%% "
-"pusat dari distribusi</li><li>'HPD' - interval kepadatan posterior tertinggi "
-"yang mencakup area 'massa'%% dengan rentang terpendek</li><li>'kustom' - "
-"interval didefinisikan oleh batas 'bawah' dan 'atas'. Itu menghasilkan massa "
-"posterior dari parameter berada di dalam interval kustom.</li>%s</ul>"
 
 msgid "Mode"
-msgstr "Modus"
+msgstr ""
 
 msgid "Warning: The number of players must be at least 2. Adjust the inputs!"
-msgstr "Peringatan: Jumlah pemain harus paling setidaknya 2. Sesuaikan masukan!"
+msgstr ""
 
 msgid "Warning: The number of players must be at most 9. Adjust the inputs!"
-msgstr "Peringatan: Jumlah pemain harus paling banyak 9. Sesuaikan masukan!"
+msgstr ""
 
 msgid "Warning: The number of point(s) required to win should be at least 1!"
 msgstr ""
-"Peringatan: Jumlah titik diperlukan untuk memenangkan harus setidaknya 1!"
 
 msgid "Warning: Player %1$s has already won the game. Adjust the inputs!"
-msgstr "Peringatan: Pemain %1$s sudah memenangkan permainan. Sesuaikan masukan!"
+msgstr ""
 
 msgid "Warning: No negative input values! Adjust the inputs!"
-msgstr "Peringatan: Tidak ada nilai masukan negatif! Sesuaikan masukan!"
+msgstr ""
 
 msgid "Players"
-msgstr "Pemain"
+msgstr ""
 
 msgid "p(win 1 point)"
-msgstr "p(menangkan 1 poin)"
+msgstr ""
 
 msgid "Points Gained"
-msgstr "Titik Diperoleh"
+msgstr ""
 
 msgid "Analytical"
-msgstr "Analitikal"
+msgstr ""
 
 msgid "p(win the game)"
-msgstr "p(menangkan permainan)"
+msgstr ""
 
 msgid "Simulated"
-msgstr "Disimulasi"
+msgstr ""
 
 msgid "The number of players (%1$i) does not equal the numbers of points for each player when interrupted (%2$i). Please check the appropriate settings."
 msgstr ""
-"Jumlah pemain (%1$i) tidak sama dengan jumlah titik untuk setiap pemain "
-"ketika diganggu (%2$i). Silakan periksa pengaturan sesuai."
 
 msgid "Prior Skill"
-msgstr "Kemampuan Priori"
+msgstr ""
 
 msgid "Only numeric values are allowed in the input."
-msgstr "Hanya nilai numerik diizinkan dalam masukan."
+msgstr ""
 
 msgid "normal (%1$s, %2$s)"
-msgstr "normal (%1$s, %2$s)"
+msgstr ""
 
 msgid "normal (%1$.2f, %2$.2f)"
-msgstr "normal (%1$.2f, %2$.2f)"
+msgstr ""
 
 msgid "normal (%1$s, %2$.2f)"
-msgstr "normal (%1$s, %2$.2f)"
+msgstr ""
 
 msgid "Prior (μ)"
-msgstr "Priori (μ)"
+msgstr ""
 
 msgid "Prior Mean"
-msgstr "Rerata priori"
+msgstr ""
 
 msgid "Posterior (μ)"
-msgstr "Posterior (μ)"
+msgstr ""
 
 msgid "Posterior Mean"
-msgstr "Rerata Posterior"
+msgstr ""
 
 msgid "Population mean"
-msgstr "Rerata populasi"
+msgstr ""
 
 msgid "Prediction"
-msgstr "Prediksi"
+msgstr ""
 
 msgid "Prediction Mean"
-msgstr "Rerata Prediksi"
+msgstr ""
 
 msgid "Please, specify the standard deviation of the data."
-msgstr "Silakan, tentukan deviasi standar data."
+msgstr ""
 
 msgid "The prediction for %1$s future %2$s is based on %3$s."
-msgstr "Prediksi untuk %1$s mendatang %2$s berdasarkan %3$s."
+msgstr ""
 
 msgid "Sample means"
-msgstr "Rerata sampel"
+msgstr ""
 
 msgid "Future data"
-msgstr "Data mendatang"
+msgstr ""
 
 msgid "Inclusion BF"
-msgstr "BF Inklusi"
+msgstr ""
